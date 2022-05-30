@@ -7,24 +7,31 @@ public class TrainerMain {
         String red = "\u001B[31m";
         String green = "\u001B[32m";
 
-        Trainer john = new Trainer();
-        john.name = "John Doe";
-        john.yearOfBirth = 1980;
+        Trainer john = new Trainer("John Doe",1980);
+        //john.setName("John Doe");
+        //john.setYearOfBirth(1980);
+
+        System.out.println(john.getNameAndYearOfBirth());
+        System.out.println(john.getAge(2022));
 
         System.out.println(red);
-        System.out.println(john.name);
-        System.out.println(john.yearOfBirth);
+        System.out.println(john.getName());
+        System.out.println(john.getYearOfBirth());
 
-        Trainer jack =new Trainer();
-        jack.name ="Jack Doe";
-        jack.yearOfBirth = 1990;
+        Trainer jack =new Trainer("Jack Doe",1990);
+        //jack.setName("Jack Doe");
+        //jack.setYearOfBirth(1990);
+
+        System.out.println(jack.getNameAndYearOfBirth());
+        System.out.println(jack.getAge(2022));
+
 
         System.out.println(green);
-        System.out.printf("%s year of birth: %d",jack.name,jack.yearOfBirth);
+        System.out.printf("%s year of birth: %d",jack.getName(),jack.getYearOfBirth());
 
-        Trainer jack2 =new Trainer();
-
-        System.out.printf("\n\n%s year of birth: %d",jack2.name,jack2.yearOfBirth);
         System.out.println(reset);
+
+        Trainer anonym = new Trainer();
+
     }
 }
