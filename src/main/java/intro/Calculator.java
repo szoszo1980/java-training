@@ -13,7 +13,7 @@ public class Calculator {
         System.out.println("Második szám:");
         int b = scanner.nextInt();
 
-        System.out.println("Számok összege: " + a + " + " + b + " = " + (a + b));
+        System.out.println("Számok összege együtt: " + a + " + " + b + " = " + (a + b));
 
 
 
