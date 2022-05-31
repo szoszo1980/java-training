@@ -18,7 +18,6 @@ public class ListsMain {
         names.set(1,"Jane");
         System.out.println(names);
 
-
         List<Integer> numbers = Arrays.asList(1,2,3,4,5);
         // módosíthatatlan a hossza
         System.out.println(numbers);
