@@ -1,0 +1,47 @@
+tovabbkepzes
+password
+
+Semantic version
+pom.xml a maven-ek szól
+
+.IDE nem töltjük a gitbe
+target a maven munkakönyvtára nem töltjük a gitbe
+
+C:\Training\java-training\target>java -cp java-training-1.0-SNAPSHOT.jar Helloidea
+pom.xml -> mindig <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+GITHUB szoszo1980
+
+Clean code könyvet elolvasni
+effective java elolvasni
+
+Konstruktorok
+
+Osztály Szerkezet felépítése:
+Attribútomok
+Konstruktorok
+Metódusok
+
+Precedencia táblázat
+
+A java.util.date helyett ezeket használjuk
+LocalDate
+LocalTime
+LocaldateTime
+
+UMLet free uml editor
+UML Distilled by Martin Fowler
+
+JAVA Type Conversion
+
+Github Training360/yellowroad-java
+
+Optional típus
+
+Clean Coder könyv
+Working Effectively with Legacy Code Könyv
+
+Value object jelentése
+immutable jelentése
+
+elegantobjects.org
