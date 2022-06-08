@@ -3,6 +3,7 @@ package streamsalgorithms;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class EmployeeMain {
 
@@ -30,6 +31,13 @@ public class EmployeeMain {
         System.out.println(employees.stream().min(Comparator.comparingInt(employee -> employee.getYearOfAge())).get().getYearOfAge()
         );
 
+        System.out.print("Legkorábban született alkalmazott neve: ");
+        System.out.println(employees.stream().min(Comparator.comparingInt(employee -> employee.getYearOfAge())).get().getName()
+        );
+
+        System.out.println("Alkalmazottak neve: ");
+        employees.forEach(employee -> System.out.println(employee.getName()));
+        System.out.println(employees.stream().map(employee -> employee.getName()).collect(Collectors.toList()));
 
     }
 }
