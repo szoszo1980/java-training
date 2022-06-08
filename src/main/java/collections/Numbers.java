@@ -24,6 +24,5 @@ public class Numbers {
         for(int i:n){
             System.out.println(i);
         }
-
     }
 }

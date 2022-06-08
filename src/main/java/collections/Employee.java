@@ -24,6 +24,10 @@ public class Employee {
         return Objects.hash(name);
     }
 
+    public String getName() {
+        return name;
+    }
+
     public static void main(String[] args) {
 
         Employee e1 = new Employee("John Doe");

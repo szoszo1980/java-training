@@ -49,3 +49,6 @@ Value object jelentése
 immutable jelentése
 
 elegantobjects.org
+
+DTO(Data Transfer Object)
+ELVIS operator(?:) javában Optional.orElse a megfelelője
