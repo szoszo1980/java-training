@@ -24,5 +24,7 @@ public class Eldontes {
         } else {
             System.out.println("A lista: páratlan számokat tartalmaz");
         }
+
+        System.out.println(numbers.stream().allMatch(s -> (s % 2) == 0));
     }
 }

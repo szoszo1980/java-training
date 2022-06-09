@@ -1,6 +1,7 @@
 package nevezetestetelek;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Szelsoertek {
@@ -22,5 +23,8 @@ public class Szelsoertek {
         }
 
         System.out.println("Leghosszabb szó: " + tmp);
+
+        System.out.println(words.stream().min(Comparator.comparingInt(String::length)).get());
+        System.out.println(words.stream().max(Comparator.comparingInt(String::length)).get());
     }
 }

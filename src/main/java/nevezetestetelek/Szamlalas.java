@@ -1,5 +1,6 @@
 package nevezetestetelek;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class Szamlalas {
@@ -14,5 +15,7 @@ public class Szamlalas {
         }
 
         System.out.println("Negatív Számok darabszáma: " + sum);
+
+        System.out.println(numbers.stream().mapToInt(Integer::intValue).filter(value -> value < 0).count());
     }
 }

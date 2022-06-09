@@ -16,5 +16,8 @@ public class Osszegzes {
 
         System.out.println("Számok összege: " + sum);
 
+
+        System.out.println(numbers.stream().mapToInt(Integer::intValue).sum());
+
     }
 }

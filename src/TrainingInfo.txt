@@ -52,3 +52,5 @@ elegantobjects.org
 
 DTO(Data Transfer Object)
 ELVIS operator(?:) javában Optional.orElse a megfelelője
+
+BigData rendszerek HAUP
