@@ -36,6 +36,7 @@ public class FilesDemo {
         //try (var reader = new BufferedReader(new StringReader(content))) {
         try(
                 var reader = new BufferedReader(new StringReader(content));
+                //var outputStream = Files.newOutputStream(Path.of("bytes.dat"));
                 var outputStream = Files.newOutputStream(Path.of("bytes.dat"));
                 ){
             String line;
