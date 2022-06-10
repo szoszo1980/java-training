@@ -9,21 +9,14 @@ public class DateTimeDemo {
         LocalDateTime t = LocalDateTime.now();
         System.out.println(t);
 
-
         LocalDate d = LocalDate.now();
         System.out.println(d);
 
-        LocalDateTime t1 = LocalDateTime.of(2022,1,1,10,2);
+        LocalDateTime t1 = LocalDateTime.of(2022, 1, 1, 10, 2);
         System.out.println(t1);
 
-        LocalDateTime t2 = LocalDateTime.of(2022,9,1,10,2);
-        System.out.println(t2);
-
-        System.out.println(077); // oktális számrendszerben van ezér más az eredmény mert 0-val kezdődik
-
+        LocalDateTime t2 = LocalDateTime.of(2022, 9, 01, 10, 2);
+        System.out.println(077); // oktális számrendszerben van
         System.out.println(t1.isAfter(t2));
-
-
-
     }
 }
