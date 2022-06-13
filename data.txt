@@ -1,0 +1,8 @@
+class:Mobile
+name:Panasonic
+type:x365
+price:12000
+class:Tablet
+name:Xiaomi
+type:MIA1
+price:56000
